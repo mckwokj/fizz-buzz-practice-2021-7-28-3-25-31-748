@@ -18,20 +18,20 @@ public class FizzBuzzTest {
         assertEquals(expected, actual);
     }
 
-//    @Test
-//    void should_return_Fizz_when_count_off_given_order_number_with_multiple_of_3() {
-//        // given
-//        int order = 9;
-//
-//        // when
-//        FizzBuzz fizzBuzz = new FizzBuzz();
-//        String actual = fizzBuzz.countOff(order);
-//
-//        // then
-//        String expected = "Fizz";
-//        assertEquals(expected, actual);
-//    }
-//
+    @Test
+    void should_return_Fizz_when_count_off_given_order_number_with_multiple_of_3() {
+        // given
+        int order = 9;
+
+        // when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String actual = fizzBuzz.countOff(order);
+
+        // then
+        String expected = "Fizz";
+        assertEquals(expected, actual);
+    }
+
 //    @Test
 //    void should_return_Buzz_when_count_off_given_order_number_with_multiple_of_5() {
 //        // given
